@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bloccourse/counter/counter.dart';
+import '../cubit/counter_cubit.dart';
 
-/// {@template counter_view}
-/// A [StatelessWidget] which reacts to the provided
-/// [CounterCubit] state and notifies it in response to user input.
-/// {@endtemplate}
 class CounterView extends StatelessWidget {
-  /// {@macro counter_view}
   const CounterView({super.key});
 
   @override
